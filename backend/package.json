@@ -1,0 +1,27 @@
+{
+  "name": "Nuber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammadKhalid/Nuber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammadKhalid/Nuber/issues"
+  },
+  "homepage": "https://github.com/MohammadKhalid/Nuber#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "joi": "^14.3.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1"
+  }
+}
