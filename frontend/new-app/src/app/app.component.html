@@ -1,0 +1,21 @@
+<h2>Bookings</h2>
+
+<table id="bookings">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Car Type</th>
+      <th>Status</th>
+    </tr>
+    <tr *ngFor ='let booking of bookings$'>
+        <td>{{booking._id}}</td>
+        <td>{{booking.name}}</td>
+        <td>{{booking.email}}</td>
+        <td>{{booking.carType}}</td>
+        <td>{{booking.status}}</td>
+    </tr>
+</table>
+
+
+<router-outlet></router-outlet>
